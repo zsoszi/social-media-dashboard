@@ -1,0 +1,53 @@
+.topBg {
+	position: absolute;
+	display: flex;
+	width: 100vw;
+	height: 220px;
+	background-color: hsl(232, 19%, 15%);
+	z-index: -1;
+	border-radius: 0 0 10px 10px;
+}
+
+.head {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	margin-left: 230px;
+	margin-right: 230px;
+}
+.Smd {
+	color: white;
+}
+.Smd-t {
+	color: hsla(228, 34%, 66%);
+	font-weight: 700;
+}
+
+.Smd-O {
+	margin-left: 230px;
+	color: rgb(255, 255, 255);
+}
+
+.Dm {
+	color: hsla(228, 34%, 66%);
+	font-weight: 700;
+}
+
+.icon {
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0;
+}
+
+.facebook {
+	color: hsl(208, 92%, 53%);
+}
+
+.twitter {
+	color: hsl(203, 89%, 53%);
+}
+
+.toggle-container{
+	display: flex;
+	align-items: center;
+}

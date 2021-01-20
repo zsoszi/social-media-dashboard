@@ -1,0 +1,13 @@
+
+
+.bigCardBox {
+	display: flex;
+    justify-content: center;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.smallCardBox {
+	display: flex;
+	justify-content: center;
+}

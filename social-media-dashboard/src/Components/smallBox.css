@@ -1,0 +1,46 @@
+.smallBox{
+    background-color: hsl(228, 28%, 20%);
+    height: 15vh;
+    width: 16vw;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.small-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.small-foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:30px;
+    margin-right:30px;
+}
+.type{
+    font-size: 15px ;
+    color: hsla(228, 34%, 66%);
+    font-weight: 700;
+}
+.amount{
+    font-size: 25px;
+	color: white;
+	font-weight: 800;
+}
+
+.small-positive{
+    color:hsl(163, 72%, 41%);
+}
+
+.small-negative{
+    color: hsl(356, 69%, 56%);
+}
+
+.small-modifier{
+    justify-items:center;
+}

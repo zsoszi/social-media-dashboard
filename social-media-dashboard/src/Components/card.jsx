@@ -4,9 +4,7 @@ import SmallBox from "./smallBox";
 import data from "../sample-data";
 import "./card.css";
 
-function bigCard(props) {
-	
-	
+function bigCard(props) {	
 	return (
 		<div className="bigCard">
 			<div className="bigCardBox">

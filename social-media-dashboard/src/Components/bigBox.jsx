@@ -19,16 +19,9 @@ function bigBox(props) {
 			<div className="big-foot">
 				<p className="followers">{num}</p>
 				<p id="title">{props.title}</p>
-				<p
-					className={`small-difference ${
-						props.difference > 0 ? "big-positive" : "big-negative"
-					}`}
-				>
-					<i
-						className={`${
-							props.difference > 0 ? "fas fa-caret-up" : "fas fa-caret-down"
-						}`}
-					/>
+				<p className={`small-difference ${
+						props.difference > 0 ? "big-positive" : "big-negative"}`}>
+					<i className={`${ props.difference > 0 ? "fas fa-caret-up" : "fas fa-caret-down"}`}/>
 					{Math.abs(props.difference)} Today
 				</p>
 			</div>

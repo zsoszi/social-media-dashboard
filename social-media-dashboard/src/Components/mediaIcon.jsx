@@ -1,8 +1,8 @@
 import React from "react";
-import Fb from "./Png/facebook.png";
-import In from "./Png/instagram.png";
-import Tw from "./Png/twitter.png";
-import Yo from "./Png/youtube.png";
+import Fb from "../Png/facebook.png";
+import In from "../Png/instagram.png";
+import Tw from "../Png/twitter.png";
+import Yo from "../Png/youtube.png";
 
 function mediaIcon(props) {
 	let social = "";
